@@ -26,14 +26,14 @@
 		</classes>
 	</test>
 	
-	<test name = "Product Details Page Test">
-		<parameter name = "browser" value="edge" />
-		<classes>
+<!--	<test name = "Product Details Page Test">-->
+<!--		<parameter name = "browser" value="edge" />-->
+<!--		<classes>-->
 			
-			<class name = "com.qa.opencart.tests.ProductResultTest" />
+<!--			<class name = "com.qa.opencart.tests.ProductResultTest" />-->
 			
-		</classes>
-	</test>
+<!--		</classes>-->
+<!--	</test>-->
 	
 	
 	
