@@ -19,7 +19,7 @@ public class AccountsPage {
 	
 	//private locators
 	
-	private By logoutBtn = By.linkText("Logout");
+	private By logoutBtn = By.linkText("Logout1");
 	private	By searchField = By.xpath("//input[@name='search']");
 	private By accHeaders = By.xpath("//div[@id='content']/h2");
 	private By searchIcon = By.cssSelector("button.btn.btn-default.btn-lg");
