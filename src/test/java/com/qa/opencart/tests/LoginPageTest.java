@@ -61,7 +61,7 @@ public class LoginPageTest extends BaseTest{
 		List<String> headersList = loginpage.getLoginPageFooterHeaders();
 		softassert.assertTrue(headersList.contains("Customer Service"));
 		softassert.assertTrue(headersList.contains("Extras"));
-		softassert.assertTrue(headersList.contains("My Account1"));
+		softassert.assertTrue(headersList.contains("My Account"));
 		softassert.assertAll();
 	}
 	
@@ -74,6 +74,7 @@ public class LoginPageTest extends BaseTest{
 		softassert.assertTrue(subheadersList.contains("Gift Certificates"));
 		softassert.assertTrue(subheadersList.contains("Order History"));
 		softassert.assertAll();
+		
 	}
 	
 	}
