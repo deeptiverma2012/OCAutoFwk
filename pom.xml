@@ -93,14 +93,6 @@
             <version>${aspectj.version}</version>
         </dependency>
 
-	
-				<dependency>
-    <groupId>org.projectlombok</groupId>
-    <artifactId>lombok</artifactId>
-    <version>1.18.34</version>
-    <scope>provided</scope>
-</dependency>
-
   </dependencies>
 
   <build>
@@ -124,7 +116,7 @@
 					<reuseForks>true</reuseForks>
 					<suiteXmlFiles>
 <!--					 	<suiteXmlFile>src/test/resources/testrunners/testng_regression.xml</suiteXmlFile>-->
-			<suiteXmlFile>$(suiteXmlFile)</suiteXmlFile>
+			<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
 					</suiteXmlFiles>
 					 <argLine>
             -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
